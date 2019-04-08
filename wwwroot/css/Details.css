@@ -1,0 +1,66 @@
+﻿
+.centeredPanel {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    grid-gap:10px;
+    grid-template-areas: 
+        " image details " 
+        " description description ";
+}
+
+ul.park-detail-info {
+    list-style: none;
+    margin-left: 0px;
+}
+
+div.park-details {
+    grid-area: details;
+    width:100%;
+    text-align:center;
+}
+
+.detail-image {
+    grid-area: image;
+    text-align: center;
+}
+
+.words {
+    grid-area: description;
+}
+
+
+.group{
+   display:flex;   
+}
+
+div.forecast{
+    display: flex;
+    flex-direction: row;  
+    justify-content:space-between;
+}
+
+div.forecast .forecast-info{
+    border:1px ridge lightblue;
+    border-radius:10px;
+    text-align:center;
+    margin: 5px 3px;
+}
+
+ul.advice-list {
+    list-style: none;
+    padding:0px;
+    margin:0px;
+}
+
+div .park-details h2{
+    width:100%;
+}
+
+.changer {
+    text-align:center;
+}
+
+.weather-img {
+    width:66%;
+    height:auto;
+}

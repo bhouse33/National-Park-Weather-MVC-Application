@@ -1,0 +1,76 @@
+﻿body {
+}
+
+header {
+    background-color: rgb(169, 241, 209);
+}
+
+    header img {
+        width: 35%;
+        padding-left: 15px;
+    }
+
+nav {
+    background-color: rgb(84, 186, 141);
+}
+
+    nav li {
+        font-size: 25px;
+        display: inline-block;
+        text-decoration: none;
+        list-style-type: none;        
+    }
+
+ul.Nav-List {
+    margin-top: 0px;
+    display: flex;
+    align-items: center;
+}
+
+nav button.nav-button {
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+
+
+main .park{
+    display:grid;
+    grid-template-columns: 4fr 5fr;
+    grid-gap:15px;
+    grid-template-areas:
+    "parkimage description";        
+    padding-top: 15px;
+}
+
+
+main img{
+    grid-area: parkimage;
+    height: auto;
+    width: 100%;
+}
+
+main h2{
+    margin-top: 0px;
+    font-size:large;
+}
+
+main p{
+    font-size: medium;
+}
+
+main{
+    margin-right:10%;
+    margin-left:10%;
+}
+  
+
+.name-description{
+    align-self:center;
+}
+
+
+
+
+
+
